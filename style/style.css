@@ -4,12 +4,12 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
-.roboto_normal {
+.text {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
 }
-.roboto-bold {
+.significant_text {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -49,6 +49,7 @@ body {
 }
 .nav {
   height: 50px;
+  width: 100%;
   background-color: #4e4e4e;
   font-size: 18px;
   color: #ffffff;
@@ -108,14 +109,14 @@ body {
 a:hover {
   color: black;
 }
-.expert_background {
+.experts_background {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.experts_title {
+.experts_heading {
   font-size: 36px;
   font-weight: 700;
 }
@@ -158,7 +159,7 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-.services_title {
+.services_heading {
   width: 950px;
   font-size: 36px;
   font-weight: bold;
@@ -167,6 +168,7 @@ a:hover {
   display: flex;
 }
 .services_options {
+  width: 100%;
   width: 720px;
   height: 451px;
   display: flex;
